@@ -1,5 +1,5 @@
 body {
-    background: rgb(54, 54, 54);
+    background: #363636;
 }
 
 /* MENU */
@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgb(39,39,39);;
+    background: #272727;
   }
 
   li {
@@ -26,13 +26,13 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(221, 73, 73);
+    background-color: #dd4949;
     text-decoration: none;
     color: white;
   }
   
   .active {
-    background-color: rgb(221, 73, 73);
+    background-color: #dd4949;
   }
 
 /* CAROUSEL */
@@ -74,7 +74,6 @@ main .container #header {
 @media (max-width:740px) {
     html, 
     body, 
-    header,
     .carousel {
       height: 100vh;
   }
@@ -87,3 +86,44 @@ main .container #header {
     }
   }
 }
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container {
+
+  padding: 0;
+}
+
+div.col-md-12.col-lg-4{
+  background: #272727;
+}
+
+div.poster {
+
+  margin-top: 15px;
+  background: #272727;
+}
+
+section.post {
+  margin-top: 3%;
+}
+
+h1.post {
+  font-size: 20px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+span.post {
+  padding-right: 3%;
+  margin-top: 3%;
+}
+
+p.text-left {
+  font-size: 18px;
+  margin-top: 3%;
+}
+

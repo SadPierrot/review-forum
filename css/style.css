@@ -18,21 +18,26 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: #d6d6d6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
   }
   
-  li a:hover:not(.active) {
-    background-color: #dd4949;
+  a#navbar:hover:not(.active) {
+    background-color: #5181B8;
     text-decoration: none;
-    color: white;
+    color: #d6d6d6;
   }
-  
+
+  a.active:hover {
+    text-decoration: none;
+    color: #d6d6d6;
+  }
+
   .active {
-    background-color: #dd4949;
+    background-color: #5181B8;
   }
 
 /* CAROUSEL */
@@ -93,7 +98,6 @@ a {
 }
 
 .container {
-
   padding: 0;
 }
 
@@ -102,14 +106,10 @@ div.col-md-12.col-lg-4{
 }
 
 div.poster {
-
-  margin-top: 15px;
+  margin-top: 30px;
   background: #272727;
 }
 
-section.post {
-  margin-top: 3%;
-}
 
 h1.post {
   font-size: 20px;
@@ -126,4 +126,35 @@ p.text-left {
   font-size: 18px;
   margin-top: 3%;
 }
+
+div.widget {
+  background: #5181B8;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+div.widget {
+  margin-top: 30px;
+}
+
+p.group {
+  padding: 15px;
+  color: #d6d6d6;
+}
+
+p.text-left {
+  color: #d6d6d6;
+}
+
+img {
+  background: black;
+  opacity: 0.7;
+}
+
+h1.slide {
+  color: white;
+  margin-top: 30%;
+}
+
+
 

@@ -110,6 +110,11 @@ div.poster {
   background: #272727;
 }
 
+a.post {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 h1.post {
   font-size: 20px;

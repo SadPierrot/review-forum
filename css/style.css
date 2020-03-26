@@ -255,10 +255,36 @@ div#post.col-5 {
   background-color: #5181B8;
   text-align: left;
   padding: 15px;
+  transition: 0.5s;
+
 }
 
 label {
   margin: 0px;
 }
 
+.footer-text {
+  color: #fff;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 0px;
+}
 
+a.page-link {
+  color: #5181B8;
+  font-weight: bold;
+  font-size: 20px;
+  background: #363636;
+  border-color: #5181B8;
+  margin: 5px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+a.page-link:hover {
+  background: #5181B8;
+  border-color: #5181B8;
+  color: #fff;
+  transition: 0.5s;
+
+}

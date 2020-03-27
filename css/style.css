@@ -4,6 +4,23 @@ body {
 
 /* MENU */
 
+a.ml-3:hover {
+  color: #5181B8;
+  transition: 0.5s;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #5181B8;
+  margin-top: -28px;
+  margin-left: 15px;
+}
+
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,6 +45,7 @@ ul {
   a#navbar:hover:not(.active) {
     background-color: #5181B8;
     text-decoration: none;
+    transition: 0.5s;
     color: #d6d6d6;
   }
 
@@ -181,7 +199,7 @@ h1.slide {
   }
 
   h1.slide { 
-    font-size: 40px;
+    font-size: 38px;
     color: white;
   }
 }
